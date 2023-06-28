@@ -1,5 +1,4 @@
 const pool = require('./conexion');
-const env = require('env');
 
 const getListadoProductosBD = async (id, nombre, descripcion, precio, activo, imagen, precio_oferta) => {
   let consulta_listado_productos = 'SELECT * FROM producto';

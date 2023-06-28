@@ -1,5 +1,4 @@
 const pool = require('./conexion');
-const env = require('env');
 
 
 const getUsuarioPorEmail = async (email) => {

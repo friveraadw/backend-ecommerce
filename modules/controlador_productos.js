@@ -1,6 +1,5 @@
 const { getListadoProductosBD } = require('./consultas_productos');
 const pool = require('./conexion');
-const env = require('env');
 
 
 const getListadoProductos = async (id, nombre, descripcion, precio, activo, imagen, precio_oferta) => {
