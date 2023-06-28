@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
 const { api_secret, api_token_expired_time, jwt_secret } = require('./config');
 const { getListadoProductos } = require('./modules/controlador_productos');
 const { getListadoProductosBD, crearProducto } = require('./modules/consultas_productos');
