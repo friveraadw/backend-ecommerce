@@ -7,7 +7,6 @@ const { getListadoProductos } = require('./modules/controlador_productos');
 const { getListadoProductosBD, crearProducto } = require('./modules/consultas_productos');
 const { getUsuarioPorEmail } = require('./modules/consultas_usuarios');
 const pool = require('./modules/conexion');
-const env = require('env');
 
 
 const app = express();
